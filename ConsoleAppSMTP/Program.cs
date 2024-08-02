@@ -1,0 +1,20 @@
+﻿using System;
+using System.Net;
+using System.Net.Mail;
+using TaskSMTP;
+using TaskReadAndWrite;
+namespace ConsoleAppSMTP
+{
+    class Program
+    {
+       static void Main (string[] args)
+        {
+            ReadAndWrite data = new ReadAndWrite();
+             data.File();
+
+            //smtp obj = new ();
+           // obj.send();
+        }
+        
+    }
+}
