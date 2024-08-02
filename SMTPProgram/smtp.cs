@@ -29,7 +29,7 @@ namespace TaskSMTP
                 Credentials = new NetworkCredential(fromAddress, password)
             };
 
-            string subjet = "youtube video";
+            string subjet = "Reminder";
             string body = $"hi sir i am  vignesh @ {DateTime.UtcNow:F}";
             try
             {
@@ -52,13 +52,13 @@ namespace TaskSMTP
         }
         public static string GetPassword()
         {
-            return "tgba pdjs pgkl hziz";
+            return "tgbapdjspgklhziz";
         }
 
 
         public static string ToAddress()
         {
-            return "eswaranevignesh@gmail.com";
+            return "sureshkumar.duraisamy@anaiyaantechnologies.com";
         }
     }
 }

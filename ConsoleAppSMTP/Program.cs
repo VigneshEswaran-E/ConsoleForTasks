@@ -9,11 +9,11 @@ namespace ConsoleAppSMTP
     {
        static void Main (string[] args)
         {
-            ReadAndWrite data = new ReadAndWrite();
-             data.File();
+           // ReadAndWrite data = new ReadAndWrite();
+            //data.File();
 
-            //smtp obj = new ();
-           // obj.send();
+            smtp obj = new ();
+            obj.send();
         }
         
     }
