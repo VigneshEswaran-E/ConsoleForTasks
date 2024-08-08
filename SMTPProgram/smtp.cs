@@ -4,11 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
-using System.Threading.Tasks;
-
-namespace TaskSMTP
-{
-    public class smtp
+using System.Threading.Tasks; 
     {
         public void send()
         {

@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Read Date From JSON File\Read Date From JSON File.csproj" />
     <ProjectReference Include="..\SMTPProgram\TaskSMTP.csproj" />
     <ProjectReference Include="..\TaskReadAndWrite\TaskReadAndWrite.csproj" />
   </ItemGroup>
